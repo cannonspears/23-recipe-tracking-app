@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Delicious Food Recipes</h1>
+        <h1>React Recipes</h1>
       </header>
       <RecipeList allRecipes={recipes} deleteRecipe={deleteRecipe} />
       <RecipeCreate addRecipe={addRecipe} />
